@@ -1310,3 +1310,49 @@
 }
   }
 /* Horizontal Image End */
+
+
+/*  */
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .container1 h3 {
+    text-align: center;
+  }
+  .container1 p{
+    text-align: left;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .column {
+      width: 25%;
+    }
+  }
+
+  .column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .column p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+/*  */
