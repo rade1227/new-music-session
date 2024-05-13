@@ -14,6 +14,9 @@
     opacity: 1;
 }
 /*** Spinner End ***/
+body{
+    scroll-behavior: smooth;
+}
 
 .back-to-top {
     position: fixed;
@@ -1312,7 +1315,7 @@
 /* Horizontal Image End */
 
 
-/*  */
+/* PAST EVENTS COLUMNS */
 .container1 {
     max-width: 1200px;
     margin: 0 auto;
@@ -1355,4 +1358,4 @@
     line-height: 1.6;
   }
 
-/*  */
+/* PAST EVENTS COLUMNS */
